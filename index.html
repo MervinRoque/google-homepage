@@ -1,52 +1,62 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="reset.css">
+    <meta charset="utf-8">
     <title>Google</title>
-    <link href="https://www.google.pl/images/branding/product/ico/googleg_lodp.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-128.png" rel="shortcut icon" type="image/x-icon" >
   </head>
   <body>
-    <div id="container">
-    <div id="header">
-      <ul class="headnav">
-        <li><a href="index.html">Gmail</a></li>
-        <li><a href="index.html">Images</a></li>
-      </ul>
-      <a href="index.html"><img class="googleapps" src="images/resource.png" alt="googleapps"></a>
-      <button class="signin" type="button" name="">Sign In</button>
-    </div>
 
-    <div id="body">
-      <div class="centercont">
-        <img class="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-        <form class="googleform" action="index.html" method="post">
-          <div class="box">
-            <input class="srcbox" type="text" name="srcbox" value="">
-          </div>
-            <br>
-            <button class="btnsrc" type="button" name="search">Google Search</button>
-            <button class="btnrndm" type="button" name="random">I'm Feeling Lucky</button>
-
-        </form>
+    <!-- Start of header content -->
+    <header>
+      <div class="ext">
+        <img src="images/GoogleAppsIcon.png" alt="" class="gapps">
+        <button type="button" name="button">Sign In</button>
       </div>
-    </div>
+      <ul class="trnav">
+        <li><a href="https://www.mail.google.com/mail/?tab=wm" target="_blank">Gmail</a></li>
+        <li><a href="https://www.google.com.ph/imghp?hl=en&tab=wi"
+        target="_blank">Images</a></li>
+      </ul>
+    </header>
+    <!-- End Header content -->
 
 
-    <div class="footer" id="footer">
-      <ul class="btmleft">
-        <li><a href="index.html">Advertising</a></li>
-        <li><a href="index.html">Business</a></li>
-        <li><a href="index.html">About</a></li>
-      </ul>
-      <ul class="btmright">
-        <li><a href="index.html">Privacy</a></li>
-        <li><a href="index.html">Terms</a></li>
-        <li><a href="index.html">Settings</a></li>
-        <li><a href="index.html">Use Google.com</a></li>
-      </ul>
-    </div>
-    </div>
+    <!-- Start of main content -->
+    <main>
+      <section>
+        <img src="images/google-logo.png" alt="Google">
+        <p id="cn">Philippines</p>
+        <div id="container">
+          <input type="text" name="" value="">
+          <img src="images/mic.png" alt="">
+        </div>
+        <div id="controls">
+          <button type="button" name="button" class="search">Google Search</button>
+          <button type="button" name="button" class="random">I'm Feeling Lucky</button>
+        </div>
+      </section>
+    </main>
+    <!-- End of main content -->
+
+    <!-- Start of footer content -->
+    <footer>
+      <nav>
+        <ul class="blnav">
+          <li><a href="https://www.google.com.ph/intl/en/ads/?fg=1" target="_blank">Advertising</a></li>
+          <li><a href="https://www.google.com.ph/services/?fg=1" target="_blank">Business</a></li>
+          <li><a href="https://www.google.com.ph/intl/en/about.html?fg=1" target="_blank">About</a></li>
+        </ul>
+        <ul class="brnav">
+          <li><a href="https://www.google.com.ph/intl/en/policies/privacy/?fg=1" target="_blank">Privacy</a></li>
+          <li><a href="https://www.google.com.ph/intl/en/policies/terms/?fg=1" target="_blank">Terms</a></li>
+          <li><a href="https://www.google.com.ph/preferences?hl=en" target="_blank">Settings</a></li>
+          <li><a href="https://www.google.com/?gfe_rd=cr&ei=IOWOWZ452uzgAtGHu6gD&gws_rd=cr&fg=1" target="_blank">Use Google.com</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- End of footer content -->
+
   </body>
 </html>
